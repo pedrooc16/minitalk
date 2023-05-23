@@ -6,7 +6,17 @@
 /*   By: pecosta- <pecosta-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 15:21:08 by pecosta-          #+#    #+#             */
-/*   Updated: 2023/05/05 15:21:16 by pecosta-         ###   ########.fr       */
+/*   Updated: 2023/05/05 17:07:17 by pecosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+#include <stdio.h>
+
+int main()
+{
+    pid_t pid = getpid();
+    printf("%d", pid);
+    //while (1)
+        //pause();
+}
