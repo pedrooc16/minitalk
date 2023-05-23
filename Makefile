@@ -9,3 +9,5 @@ $(NAME): all
 
 $(SERVER)
 	$(CC) $(CFLAGS) 
+
+$(CLIENT)
