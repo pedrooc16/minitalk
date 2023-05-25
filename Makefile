@@ -9,6 +9,6 @@ all: $S(SERVER) $(CLIENT)
 $(NAME): all
 
 $(SERVER)
-	$(CC) $(CFLAGS) 
+	$(CC) - $(CFLAGS) 
 
 $(CLIENT)

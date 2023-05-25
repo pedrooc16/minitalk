@@ -6,12 +6,12 @@
 /*   By: pecosta- <pecosta-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 15:20:31 by pecosta-          #+#    #+#             */
-/*   Updated: 2023/05/05 16:23:32 by pecosta-         ###   ########.fr       */
+/*   Updated: 2023/05/25 17:07:58 by pecosta-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	main(int argc, char **argv)
 {
 	if (argc != 3)
-		return (1);
+		write(Sorry, couldn't get anything");
 }
